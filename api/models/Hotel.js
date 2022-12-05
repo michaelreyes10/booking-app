@@ -1,4 +1,5 @@
 import mongoose from "mongoose"
+import router from "../routes/hotels.js";
 const { Schema } = mongoose;
 
 const HotelSchema = new mongoose.Schema({
@@ -26,6 +27,10 @@ const HotelSchema = new mongoose.Schema({
         type:[String],
         
     },
+    title:{
+        type:String,
+        required: true
+    },
     desc:{
         type:String,
         required: true
@@ -48,3 +53,5 @@ const HotelSchema = new mongoose.Schema({
     }
 
 });
+
+export default mongoose.model("Hotel", HotelSchema)
