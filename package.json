@@ -1,0 +1,27 @@
+{
+  "name": "booking-app",
+  "version": "1.0.0",
+  "description": "React Booking / Reservation System. MERN stack hotel reservation app. React Node.js MongoDB full-stack app using Context API, JWT, custom hooks, and React calendar.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelreyes10/booking-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelreyes10/booking-app/issues"
+  },
+  "homepage": "https://github.com/michaelreyes10/booking-app#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.5",
+    "nodemon": "^2.0.20"
+  }
+}
